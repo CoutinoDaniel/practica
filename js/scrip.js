@@ -17,6 +17,12 @@ function area(){
 	alert("el area es:"+area)
 	
 }
+function numeros(){
+	var numeros=document.getElementById("numeros");
+	for (let  i= 1; i<= 1000; i++){
+	numeros.innerText+=i+", ";
+	}
+}
 
 
 
