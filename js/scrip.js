@@ -10,6 +10,14 @@ function boton2(){
 	prompt("precionaste el boton2");
 	console.log("esto es una prueba");
 }
+function area(){
+	var base=prompt("ingresa la base del triangulo")
+	var altura=prompt("ingresala altura")
+	var area=(base*.5)*altura
+	alert("el area es:"+area)
+	
+}
+
 
 
 	
